@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '0 12,17 * * 1-5' # Runs at 12:00 and 17:00, Monday through Friday
+    - cron: '0 4,9 * * 1-5' # Runs at 12:00 and 17:00, Monday through Friday in Beijing time
 
 jobs:
   build:
